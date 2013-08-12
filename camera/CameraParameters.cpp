@@ -99,7 +99,7 @@ const char CameraParameters::KEY_SUPPORTED_SCENE_MODES[] = "scene-mode-values";
 #ifdef QCOM_HARDWARE
 const char CameraParameters::KEY_SCENE_DETECT[] = "scene-detect";
 const char CameraParameters::KEY_SUPPORTED_SCENE_DETECT[] = "scene-detect-values";
-#endif QCOM_HARDWARE
+#endif
 const char CameraParameters::KEY_FLASH_MODE[] = "flash-mode";
 const char CameraParameters::KEY_SUPPORTED_FLASH_MODES[] = "flash-mode-values";
 const char CameraParameters::KEY_FOCUS_MODE[] = "focus-mode";
@@ -325,7 +325,7 @@ const char CameraParameters::PIXEL_FORMAT_YUV420SP[] = "yuv420sp";
 const char CameraParameters::PIXEL_FORMAT_YUV420SP_ADRENO[] = "yuv420sp-adreno";
 #endif
 #ifdef STE_HARDWARE
-const char CameraParameters::PIXEL_FORMAT_YUV420SPNV12[] = "yuv420spnv12"
+const char CameraParameters::PIXEL_FORMAT_YUV420SPNV12[] = "yuv420spnv12";
 const char CameraParameters::PIXEL_FORMAT_YUV420MB[] = "yuv420mb";
 const char CameraParameters::PIXEL_FORMAT_YVU422SP[] = "yvu422sp";
 const char CameraParameters::PIXEL_FORMAT_YVU422P[] = "yvu422p";
